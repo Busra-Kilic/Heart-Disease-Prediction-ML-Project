@@ -16,12 +16,12 @@ def load_model(model_path):
         model = pickle.load(f)
     return model
 
-model_path = "heart_disease_catboost_model.pkl"
+model_path = "model/heart_disease_catboost_model.pkl"
 
 model = load_model(model_path)
 
 
-image = Image.open("images.png")
+image = Image.open("model/images.png")
 col1, col2, col3, col4, col5 = st.columns([1, 1, 2, 1, 1])
 with col3:
      st.image(image, caption="", use_column_width=False)
