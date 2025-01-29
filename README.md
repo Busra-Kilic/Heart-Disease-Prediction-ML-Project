@@ -1,11 +1,12 @@
 # Heart-Disease-Prediction
+------------------------------------------------------------------------------
  
-= Data Preparation
+## Data Preparation
 
 
-== Exploratory Data Analysis
+### Exploratory Data Analysis
 
-== Feature Engineering
+### Feature Engineering
 
 #Model Development
 #Model Selection
