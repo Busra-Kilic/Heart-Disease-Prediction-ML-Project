@@ -1,4 +1,4 @@
-## Heart-Disease-Prediction
+### Heart-Disease-Prediction
 
 This project aims to predict whether individuals are at risk of heart disease using machine learning techniques.We used a dataset available on Kaggle, which you can access [here](https://www.kaggle.com/datasets/mexwell/heart-disease-dataset)
  
@@ -22,8 +22,8 @@ In the model development phase, we followed the following steps:
 
 ###### Model Selection
 
-	- We tried different algorithms such as Logistic Regression, K-Nearest Neighbors Classifier, Decision Tree Classifier, Random Forest Classifier, SVC, XGB Classifier, CatBoost Classifier, LightGBM Classifier.
-	- Before applying these models, we split the dataset into training and testing sets and also used cross-validation techniques.
+- We tried different algorithms such as Logistic Regression, K-Nearest Neighbors Classifier, Decision Tree Classifier, Random Forest Classifier, SVC, XGB Classifier, CatBoost Classifier, LightGBM Classifier.
+- Before applying these models, we split the dataset into training and testing sets and also used cross-validation techniques.
  
 ###### Hyperparameter Tuning
 
@@ -32,14 +32,14 @@ In the model development phase, we followed the following steps:
   
 #### Model Evaluation
 
-	- The models were evaluated using performance measures such as accuracy, precision, recall and F1-score.
-	- The overall performance of the model was visualized using techniques such as confusion matrix and ROC curve.
+- The models were evaluated using performance measures such as accuracy, precision, recall and F1-score.
+- The overall performance of the model was visualized using techniques such as confusion matrix and ROC curve.
  
 #### Final Model Selection
 
-	- The Catboost model was selected as the best performing model among all models.
-	- The selected model was evaluated on the test set and its performance was verified.
- - These steps ensured the successful execution of the project and as a result, we implemented the Catboost model in a web application for users.
+- The Catboost model was selected as the best performing model among all models.
+- The selected model was evaluated on the test set and its performance was verified.
+- These steps ensured the successful execution of the project and as a result, we implemented the Catboost model in a web application for users.
 
 #### Web Application
 
